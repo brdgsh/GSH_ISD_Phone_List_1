@@ -48,7 +48,7 @@
 
     <!-- Plugins can also be added here. -->
 	
-	<gap:plugin name="childBrowser" />
+	<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
 	
     <!--
         <gap:plugin name="Example" />
