@@ -89,7 +89,7 @@
         Otherwise, you can specify specific domains:
     -->
     <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
-	<access origin="*" /> <!--- a wildcard access tag allows access to all external resource.-->
+	<access origin="*" browserOnly="true" /> <!--- a wildcard access tag allows access to all external resource.-->
 
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
